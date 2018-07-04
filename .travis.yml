@@ -1,4 +1,7 @@
 language: python
 
+install:
+  - pip install matplotlib
+
 script:
   - python test.py
