@@ -1,8 +1,4 @@
 language: python
 
-install:
-  # Install matplotlib
-  python -mpip install -ve .
-
 script:
   - python test.py
