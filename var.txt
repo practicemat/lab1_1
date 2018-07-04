@@ -1,0 +1,1 @@
+a * numpy.log(((x)/(b + (c * x))))
