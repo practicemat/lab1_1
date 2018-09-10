@@ -1,1 +1,15 @@
-a * numpy.log(((x)/(b + (c * x))))
+a * x**5 + b * x**4 + c * x + d
+a * numpy.sin(b * x + c)
+numpy.tan(a * x**2 + b * x + c)
+a * numpy.log(b + c * x)
+a * numpy.log((x)/(b + (c * x))) 
+numpy.log(a * x**2 + b * x + c, d)
+d**(a * x**2 + b * x + c)
+numpy.log(numpy.log(c * x + d, b), a)
+1 / (a * numpy.log((numpy.fabs(b * x + c))))
+a * numpy.sin(b * x) + c * numpy.sin(d * x)
+a * x**2 * numpy.sin(b * x)
+a * ((numpy.sin(b * x)) / x) + c
+numpy.sqrt((c**2 - a * x**2) / b)
+numpy.acos(1 - numpy.fabs(x)) - numpy.pi
+a * a**3 + b**2 + c**x + d

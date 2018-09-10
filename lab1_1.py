@@ -14,7 +14,7 @@ def rangex():
     return numpy.arange(-2, 2, 0.02)
 
 def number():
-    return 1
+    return 5
 
 def func():
     with open("data.tsv") as dataFile:
@@ -23,7 +23,7 @@ def func():
     b = float(b)
     c = float(c)
     x = rangex()
-    y = a * numpy.log(((x)/(b + (c * x))))
+    y = a * numpy.log((x)/(b + (c * x)))
     return y
 
 

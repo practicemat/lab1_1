@@ -12,9 +12,9 @@ import lab1_1
 
 
 def main():
-    e = [1,2,3,4,5,9,11,12,13,14]
-    #e = [2,3,4,5,9,11,12,13,14]
-    numb = lab1_1.number()
+    #e = [1,2,3,4,5,9,11,12,13,14]
+    e = [2,3,4,5,9,11,12,13,14]
+    numb = lab1_1.number() -1
     if (numb in e):
         with open("data.tsv") as dataFile:
             a, b, c = dataFile.readline().split("\t")
