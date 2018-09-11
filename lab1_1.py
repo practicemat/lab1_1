@@ -1,14 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Jul  4 13:15:44 2018
 
-@author: Dmitry
-"""
 
 import matplotlib.pyplot as pypl
 import numpy
-import math
 
 def rangex():
     return numpy.arange(-2, 2, 0.02)

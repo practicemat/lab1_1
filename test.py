@@ -1,13 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Jul  4 13:15:44 2018
 
-@author: Dmitry
-"""
 
 import numpy
-import math
 import lab1_1
 
 
