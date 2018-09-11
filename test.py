@@ -3,6 +3,7 @@
 
 
 import numpy
+import math
 import lab1_1
 
 
