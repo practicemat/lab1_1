@@ -47,7 +47,7 @@ def main():
 
 
     for i in range(len(correctFunc)):
-        if (math.isnan(correctFunc[i]) != True):
+        if (math.isnan(correctFunc[i]) != True && math.isnan(studentFunc[i]) != True):
             if ((studentFunc[i] != correctFunc[i])):
                 graphArray.append(correctFunc[i]);
 
