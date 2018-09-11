@@ -8,10 +8,9 @@ import lab1_1
 
 
 def main():
-    #e = [1,2,3,4,5,9,11,12,13,14]
-    e = [2,3,4,5,9,11,12,13,14]
+    varParam = [2,3,4,5,9,11,12,13,14]
     numb = lab1_1.number()
-    if (numb in e):
+    if (numb in varParam):
         with open("data.tsv") as dataFile:
             a, b, c = dataFile.readline().split("\t")
         a = float(a)
@@ -30,32 +29,32 @@ def main():
     numb -= 1
     f = open('var.txt')
     line = f.readlines()
-    dger = (line[numb]) 
+    funcLine = (line[numb])
 
     
-    x = lab1_1.rangex()
+    #x = lab1_1.rangex()
 
-    yer = lab1_1.func()
+    studentFunc = lab1_1.func()
 
-    ger = eval(dger)
-
-
-
-    list4 = []
-    odin = []
+    correctFunc = eval(funcLine)
 
 
 
-
-    for i in range(len(ger)):
-        if (math.isnan(ger[i]) != True):
-            if ((yer[i] != ger[i])):
-                odin.append(ger[i]);
+    nullArray = []
+    graphArray = []
 
 
 
 
-    if (odin == list4): 
+    for i in range(len(correctFunc)):
+        if (math.isnan(correctFunc[i]) != True):
+            if ((studentFunc[i] != correctFunc[i])):
+                graphArray.append(correctFunc[i]);
+
+
+
+
+    if (graphArray == nullArray):
         print('одинаковые')
         
     else: 

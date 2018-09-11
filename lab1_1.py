@@ -26,12 +26,12 @@ def func():
 def main():
     
     x = rangex()
-    yer = func()
+    myFunc = func()
     
-    pypl.plot(x, yer)
+    pypl.plot(x, myFunc)
     pypl.xlabel(r"$x$")
     pypl.ylabel(r'$y$')
     pypl.title(r"$a * ln(x/(c * x + b)$")
-    return yer
+    return myFunc
 
 
