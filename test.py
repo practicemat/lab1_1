@@ -32,7 +32,7 @@ def main():
     funcLine = (line[numb])
 
     
-    #x = lab1_1.rangex()
+    x = lab1_1.rangex()
 
     studentFunc = lab1_1.func()
 
